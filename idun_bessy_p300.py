@@ -32,5 +32,9 @@ test_erp.setup(
     plot_erp=False,
     trial_start=0.0,
     trial_end=0.8,
+    max_num_options=10,
+    max_trials_per_option=20,
+    max_trials=10000,
+    max_decisions=500,
 )
 test_erp.run()

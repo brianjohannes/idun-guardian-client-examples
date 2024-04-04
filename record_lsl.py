@@ -32,6 +32,7 @@ async def main():
             sending_timout=SENDING_TIMEOUT,
             bi_directional_receiving_timeout=BI_DIRECTIONAL_TIMEOUT,
             filter_data=FILTER_DATA,
+            mains_freq_60hz = True,
         ),
         stream_data(api_class=bci.guardian_api, filter_data=FILTER_DATA),
     )
